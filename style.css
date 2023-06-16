@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 160px;
+    min-width: 100px;
+}
+
+.logo, .header-links {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-links {
+    margin-right: 160px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*row 1*/
+.row-1 {
+    display: flex;
+    background-color: #1F2937;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.left, .right {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.left {
+    margin-left: 160px;
+    max-width: 500px;
+}
+
+.right {
+    display: flex;
+    margin-right: 160px;
+}
+
+.right-text {
+    align-self: center;
+}
+
+.image-5 {
+    width: 700px;
+    height: 300px;
+}
+
+.button-1 {
+    color: white;
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+}
+
+/*row 2*/
+
+.some {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882F6
+}
+
+.text {
+    max-width: 200px;
+}
+
+/*row 3*/
+.row-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 16px;
+}
+
+.row-3a, .row-3b {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.row-3a {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.row-3b {
+    align-self: flex-end;
+}
+
+/*row 4*/
+.row-4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.container {
+    padding: 16px 80px 16px 80px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.button {
+    align-self: center;
+}
+
+.button-2 {
+    margin-left: 80px;
+    color: white;
+    align-self: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+}
